@@ -10,65 +10,107 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
-    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <!-- body -->
   <body>
     <section id="header">
       <nav>
-        <div class="logo">JR.</div>
+        <div class="logo"><a href="#front-page">JEDIDAH.</a></div>
         <ul>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">PROJECTS</a></li>
-          <li><a href="#">SKILLS</a></li>
-          <li><a href="#">EXPERIENCE</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#about-section">ABOUT</a></li>
+          <li><a href="#skill-section">SKILLS</a></li>
+          <li><a href="#experience">EXPERIENCE</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
-      <div class="description">
-        <p>JUNIOR WEB DEVELOPER</p>
-        <p>JUNIOR FRONT END ENGINEER</p>
-        <h1>
-          Hi, I'm <span>Jedidah.</span>
-          <br />
-          Welcome to my journey.
-        </h1>
+      <div id="front-page">
+        <div class="description">
+          <p>ASPIRING FRONTEND DEVELOPER</p>
+          <p>A CODE NOVICE ON A QUEST</p>
+          <h1>
+            Every Expert Was Once a Novice.
+            <br />
+            Welcome to my journey.
+          </h1>
+        </div>
+        <p id="resume">
+          <a href="./assets/JEDIDAH'S CV.docx" download>
+            DOWNLOAD MY RESUME<i class="fa-solid fa-download"></i
+          ></a>
+        </p>
       </div>
     </section>
     <!-- about section -->
     <section id="about-section">
       <div class="section1">
         <div>
-          <img src="./assets/1697403530656.png" alt="" />
+          <!-- <img src="./assets/IMG_0360.png" alt="" /> -->
         </div>
       </div>
       <div class="section2">
-        <h2 class="sub-title">ABOUT ME.</h2>
+        <h2 class="sub-title">MY STORY: A BEGINNER WITH BIG INTENTIONS</h2>
         <p>
-          I am a driven and curious learner transitioning into the web
-          development field. I am currently specializing in the fields of HTML,
-          CSS and JAVASCRIPT. I love immersing in the creation of simple and
-          easy to use websites and find excitement in the endless opportunities
-          that technology presents. I enjoy learning new tools, developing in
-          challenging environments, and looking for creative inspiration.
+          I typed my very first line of code only a few weeks ago. One project
+          at a time, I've been delving deeply into the foundations of HTML, CSS
+          and JavaScript ever since.I want to understand how amazing digital
+          experiences are created, not just learn how to code. What makes me
+          unique? I offer more than simply the excitement of a novice. I'm
+          motivated and don't mind troubleshooting until I get something that
+          works. I'm also in addition, honing my abilities in version control
+          (Git & Github). My years in the working environment have equipped me
+          with skills such as attention to detail, communication, and
+          self-motivation. My launchpad is this portfolio, where I can share
+          what I've learned and make connections with people that support
+          starting before you're ready.
         </p>
-        <p id="sk">Skills</p>
-        <ul class="skills">
-          <li>Javascript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>VS Code</li>
-          <li>Git/Github</li>
-          <li>Chrome DevTools</li>
-          <li>Javascript</li>
-          <li>Javascript</li>
-        </ul>
+
+        <section id="skill-section">
+          <p id="sk">Skills</p>
+          <div class="div1">
+            <div id="front-page">
+              <div class="description">
+                <p>ASPIRING FRONTEND DEVELOPER</p>
+                <p>A CODE NOVICE ON A QUEST</p>
+                <h1>
+                  From Zero to Syntax;
+                  <br />
+                  My Coding Weapons
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="div2">
+            <ul class="skills">
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>VS Code</li>
+            <li>Git/Github</li>
+            <li>Chrome DevTools</li>
+            <li>Communication</li>
+            <li>Team Worker</li>
+            <li>proactive</li>
+          </ul>
+          </div>
+        </section>
       </div>
     </section>
     <!-- experience section -->
     <section id="experience">
       <div class="description">
+        <!-- <h2 class="sub-title">EXPERIENCE.</h2> -->
         <p>JUNIOR WEB DEVELOPER</p>
         <p>JUNIOR FRONT END ENGINEER</p>
         <h1>
@@ -76,6 +118,11 @@
           <br />
           Welcome to my journey.
         </h1>
+        <!-- <p id="resume">
+          <a href="./assets/JEDIDAH'S CV.docx" download>
+            DOWNLOAD MY RESUME<i class="fa-solid fa-download"></i
+          ></a>
+        </p> -->
       </div>
 
       <div class="section3">
@@ -127,5 +174,114 @@
         </div>
       </div>
     </section>
+    <!--  services section-->
+    <br />
+    <section id="services">
+      <h2 class="sub-title">NEED SOMETHING DONE?</h2>
+      <div class="list-services">
+        <div class="web-design">
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <span>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
+          </span>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="web-design">
+          <i class="fa-brands fa-intercom"></i>
+          <h2>Web Design</h2>
+          <span
+            >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
+          </span>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="web-design">
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>Web Design</h2>
+          <span>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
+          </span>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact">
+      <div class="entire-section">
+        <div class="first-section">
+          <h2 class="sub-title">CONTACT ME</h2>
+          <br />
+          <span>
+            <i class="fa-solid fa-envelope"></i>
+            <a href=""> robertsjedidah@gmail.com</a></span
+          >
+          <br />
+          <br />
+          <p><i class="fa-solid fa-phone"></i>+233 554436603</p>
+          <br />
+          <div class="social-media">
+            <ul>
+              <li>
+                <a href="#"> <i class="fa-brands fa-github"></i></a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="second-section">
+          <div class="form-section">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Enter Email"
+                required
+              />
+              <textarea
+                name="Review"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <p><button>submit here</button></p>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section id="footer">
+      <div class="copyright">
+        <p>@ 2025 Jedidah Ama Roberts. Designed & Developed with passion</p>
+      </div>
+    </section>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxjltffo83YvH0rf44rO_wvTmBF5NcM9uw66585E69RethrL9ysOeymRLn6HIz3CAMM/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
   </body>
 </html>
