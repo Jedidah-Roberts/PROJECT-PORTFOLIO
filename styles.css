@@ -9,15 +9,13 @@ html {
 }
 body {
   background-color: black;
-  /* background-color: rgba(117, 58, 7, 0.61); */
   color: white;
-  /* color: black; */
   font-family: "Nunito Sans", Arial, sans-serif;
 }
 #header {
   height: 100vh;
   width: 100%;
-  /* background-image: url(./assets/IMG_0359.png); */
+  background-image: url(./assets/IMG_0359.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -47,7 +45,6 @@ nav {
   align-items: center;
   padding: 0px 30px;
   flex-wrap: wrap;
-  /* margin-top: 15px; */
   border-bottom: solid;
   border-radius: 100px;
   border-color: rgb(176, 51, 70);
@@ -110,18 +107,16 @@ nav ul li a:active {
   margin-top: 0px;
   border-style: solid;
   border-color: rgb(176, 51, 70);
-  padding: 5px 10px 100px 10px;
+  padding: 5px 10px 50px 10px;
   border-radius: 100px;
   box-shadow: 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(166, 173, 201, 0.2);
-  /* box-shadow: 0px 2px 4px rgba(0, 0,0, 0.3) ; */
 }
 .section2 {
   flex-basis: 55%;
   margin-left: 50px;
 }
 .section2 p {
-  /* margin-top: 20px; */
   width: 100%;
   font-size: 25px;
   text-align: left;
@@ -130,10 +125,10 @@ nav ul li a:active {
   row-gap: 5px;
 }
 .sub-title {
-  /* margin-left: 30px; */
   margin-top: 20px;
+  margin-bottom: 20px;
   text-align: left;
-  font-size: 30px;
+  font-size: 32px;
   color: rgb(176, 51, 70);
   font-weight: bold;
 }
@@ -152,34 +147,12 @@ nav ul li a:active {
 .tab-links:active {
   color: blue;
 }
-/* about-section {
-  display: flex;
-  justify-content: center;
-  padding: 80px 0px;
-    /* height: 100vh; 
-
-.section1 {
-    flex-basis: 35%;} */
-
-section2 {
-  flex-basis: 55%;
-  margin-left: 50px;
-}
-.section2 p {
-  /* margin-top: 20px; */
-  width: 100%;
-  font-size: 25px;
-  text-align: left;
-  font-style: italic;
-  margin-bottom: 60px;
-  row-gap: 5px;
-}
 
 #experience {
   display: flex;
   width: 100vw;
-  margin-top: 200px;
-  padding: 80px 80px;
+  margin-top: 150px;
+  padding: 60px 80px;
 }
 
 .detailed-experiences {
@@ -192,12 +165,44 @@ section2 {
   font-weight: bold;
   color: rgb(176, 51, 70);
 }
+#sk-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  column-gap: 40px;
+  margin-left: 100px;
+}
+.div1 {
+  flex-basis: 40%;
+}
+.div1 p {
+  width: 100%;
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.div1 h2 {
+  width: 100%;
+  margin-top: 60px;
+  font-size: 50px;
+  text-wrap: wrap;
+}
+.div2 {
+  flex-basis: 55%;
+  flex-wrap: wrap;
+}
+.div2 ul {
+  width: 100%;
+}
 #sk {
   font-weight: bold;
   color: rgb(176, 51, 70);
-  font-size: 30px;
+  font-size: 40px;
   font-style: normal;
   margin-top: 100px;
+  margin-left: 100px;
 }
 .skills {
   display: flex;
@@ -205,25 +210,34 @@ section2 {
   row-gap: 40px;
   flex-wrap: wrap;
   padding: 20px;
-  /* margin-top: 20px; */
 }
 
 .skills li {
   border-style: solid;
-  padding: 10px;
+  font-size: 25px;
+  padding: 15px;
   border-radius: 100px;
   cursor: pointer;
   color: rgb(176, 51, 70);
   box-shadow: 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(166, 173, 201, 0.2);
 }
+.skills li:hover {
+  cursor: pointer;
+  background-color: rgb(176, 51, 70);
+  color: white;
+  border-color: black;
+  transform: translateY(-7px);
+}
+
 .list-services {
   display: flex;
   text-wrap: wrap;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 150px;
   padding: 5px 20px;
   column-gap: 50px;
+  margin-top: 150px;
 }
 
 .web-design {
@@ -241,23 +255,11 @@ section2 {
   height: 80px;
   margin-bottom: 10px;
 }
-.web-design a {
-  text-decoration: none;
-  font-size: 18px;
-  transition: 0.2s;
-  color: white;
+
+.web-design:hover {
+  background-color: rgb(176, 51, 70);
+  transform: translateY(-8px);
 }
-.web-design a:hover {
-  font-size: 18px;
-  color: rgb(176, 51, 70);
-}
-.web-design a:active {
-  opacity: 0.8;
-}
-/* .web-design:hover{
-    background-color:rgb(176, 51, 70) ;
-    transform: translateY(-8px);
-} */
 
 #resume a {
   text-decoration: none;
@@ -295,7 +297,8 @@ section2 {
   width: 100vw;
   justify-content: space-between;
   margin-left: 10%;
-  padding: 80px 0px;
+  margin-top: 60px;
+  margin-bottom: 180px;
 }
 .first-section {
   flex-basis: 35%;
@@ -340,7 +343,7 @@ form button:focus {
   outline: none;
 }
 #footer {
-  padding: 30px 0px 10px 0px;
+  padding: 20px 0px 10px 0px;
   border-top: solid;
   border-radius: 100px;
   border-color: rgb(176, 51, 70);
@@ -351,4 +354,42 @@ form button:focus {
 }
 #msg {
   color: #61b752;
+}
+#project-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  row-gap: 24px;
+  column-gap: 100px;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+#project-section .projects {
+  width: 40%;
+}
+.projects iframe {
+  object-fit: cover;
+  width: 100%;
+  height: 70%;
+  border: 3px solid rgb(176, 51, 70);
+  padding: 20px;
+  border-radius: 10px;
+}
+.overlay h2 {
+  color: rgb(176, 51, 70);
+  font-size: 25px;
+}
+.overlay p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.overlay a {
+  color: violet;
+  font-size: 25px;
+  margin-right: 20px;
+}
+.overlay a:hover {
+  color: rgb(176, 51, 70);
+  transform: translateY(-5px);
 }
